@@ -1,0 +1,1 @@
+var iOS = document.querySelector("video").play();
