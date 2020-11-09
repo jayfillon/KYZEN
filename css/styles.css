@@ -97,7 +97,7 @@ body {
 .site-pwd {
   display: flex;
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #d8d8d8;
