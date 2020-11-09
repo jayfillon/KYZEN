@@ -97,7 +97,7 @@ body {
 .site-pwd {
   display: flex;
   position: absolute;
-  top: 75%;
+  top: 72%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #d8d8d8;
@@ -122,6 +122,7 @@ body {
   font-size: 1.5rem;
   color: #d8d8d8;
   z-index: 1;
+  cursor: pointer;
 }
 
 /* For 1366 Resolution */
