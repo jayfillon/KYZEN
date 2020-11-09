@@ -68,20 +68,11 @@ body {
   width: 100%;
   color: #fff;
   text-align: center;
+  font-size: 0.7rem;
 }
 
 .site-desc span {
   line-height: 1.3rem;
-}
-
-#desc-1 {
-  font-size: 0.7rem;
-  z-index: 1;
-}
-
-#desc-2 {
-  font-size: 0.7rem;
-  z-index: 1;
 }
 
 #coming-soon {
@@ -137,5 +128,9 @@ body {
 
   .site-pwd {
     top: 65%;
+  }
+
+  .site-desc{
+    font-size: 0.8rem;
   }
 }
