@@ -32,7 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 18%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -91,7 +91,7 @@ body {
 .site-pwd {
   display: flex;
   position: absolute;
-  top: 72%;
+  top: 77%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #d8d8d8;
