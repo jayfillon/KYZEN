@@ -32,29 +32,40 @@ body {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 35%;
+  top: 18%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   text-align: center;
-  text-transform: uppercase;
   font-size: 4rem;
   z-index: 1;
 }
 
 .site-title h1 {
   letter-spacing: 0.3rem;
+  text-transform: uppercase;
 }
 
 .site-title h2 {
   font-size: 1.4rem;
-  margin-top: 0.5em;
+  margin-top: 0.8em;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid white;
 }
 
 .site-title h3 {
   color: #d8d8d8;
   font-size: 1rem;
   letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.jay {
+  position: relative;
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .site-desc {
@@ -68,22 +79,14 @@ body {
   width: 100%;
   color: #fff;
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.03rem;
 }
 
 .site-desc span {
   line-height: 1.3rem;
 }
 
-#coming-soon {
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font-size: 1.4rem;
-  text-transform: uppercase;
-}
 
 .site-pwd {
   display: flex;
@@ -103,7 +106,8 @@ body {
 
 .site-pwd input::placeholder {
   color: #d8d8d8;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
 }
 
 .pwd-arrow {
@@ -120,10 +124,6 @@ body {
 @media only screen and (min-width: 1030px) {
   .site-title {
     top: 40%;
-  }
-
-  #coming-soon {
-    top: 60%;
   }
 
   .site-pwd {
